@@ -1,0 +1,41 @@
+.button {
+    color: #ffffffff;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    line-height: 1.0588rem;
+    font-size: .875rem;
+
+    background-color: var(--color-primary);
+    width: 7.125rem;
+    height: 2.4375rem;
+    border-radius: .75rem;
+}
+
+.button:hover {
+    color: white;
+    background-color: var(--color-primary-Hover);
+    width: 7.125rem;
+    height: 2.4375rem;
+    border-radius: .70rem;
+    transition: 0.5s;
+}
+
+.knowMore {
+    color: #ffffffff;
+    font-weight: 700;
+    line-height: 1.875rem;
+    font-size: 1rem;
+    background-color: var(--color-primary);
+    width: 8.125rem;
+    height: 2.4375rem;
+    border-radius: 12px;
+}
+
+.knowMore:hover {
+    color: white;
+    background-color: var(--color-primary-Hover);
+    width: 8.130rem;
+    height: 2.4400rem;
+    border-radius: .70rem;
+    transition: 0.5s;
+}

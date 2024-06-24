@@ -1,0 +1,29 @@
+.sectionMyTechnology {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.divFirst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 95%;
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.sectionMyTechnology li{
+    width: 300px;
+    height: 5.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1.5625rem;
+}

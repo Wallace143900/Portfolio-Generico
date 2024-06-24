@@ -1,0 +1,39 @@
+
+.header {
+    width: 100%;
+    max-width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color: black;
+    margin: 0 auto;
+    gap: 4rem;
+}
+
+.portfolio {
+    width: 80%;
+    color: #ffffffff;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 1.25rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divAncora {
+    display: flex;
+    gap: 3rem;
+    color: #ffffffff;
+    text-decoration: none;
+}
+
+a{
+    color: #ffffffff;
+}
+
+
